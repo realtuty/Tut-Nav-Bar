@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3159AB3D152CDB1E00AF555A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3159AB3C152CDB1E00AF555A /* UIKit.framework */; };
+		3159AB3F152CDB1E00AF555A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3159AB3E152CDB1E00AF555A /* Foundation.framework */; };
+		3159AB41152CDB1E00AF555A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3159AB40152CDB1E00AF555A /* CoreGraphics.framework */; };
+		3159AB47152CDB1E00AF555A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3159AB45152CDB1E00AF555A /* InfoPlist.strings */; };
+		3159AB49152CDB1E00AF555A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159AB48152CDB1E00AF555A /* main.m */; };
+		3159AB4D152CDB1E00AF555A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159AB4C152CDB1E00AF555A /* AppDelegate.m */; };
+		3159AB50152CDB1E00AF555A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159AB4F152CDB1E00AF555A /* MainViewController.m */; };
+		3159AB53152CDB1E00AF555A /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3159AB52152CDB1E00AF555A /* FlipsideViewController.m */; };
+		3159AB56152CDB1E00AF555A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3159AB54152CDB1E00AF555A /* MainViewController.xib */; };
+		3159AB59152CDB1E00AF555A /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3159AB57152CDB1E00AF555A /* FlipsideViewController.xib */; };
+		3159AB61152CDCCB00AF555A /* UINavigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3159AB5F152CDCCB00AF555A /* UINavigationBar.png */; };
+		3159AB62152CDCCB00AF555A /* UINavigationBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3159AB60152CDCCB00AF555A /* UINavigationBar@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3159AB38152CDB1E00AF555A /* Tut Nav Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tut Nav Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3159AB3C152CDB1E00AF555A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3159AB3E152CDB1E00AF555A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3159AB40152CDB1E00AF555A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3159AB44152CDB1E00AF555A /* Tut Nav Bar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tut Nav Bar-Info.plist"; sourceTree = "<group>"; };
+		3159AB46152CDB1E00AF555A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3159AB48152CDB1E00AF555A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3159AB4A152CDB1E00AF555A /* Tut Nav Bar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tut Nav Bar-Prefix.pch"; sourceTree = "<group>"; };
+		3159AB4B152CDB1E00AF555A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3159AB4C152CDB1E00AF555A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3159AB4E152CDB1E00AF555A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3159AB4F152CDB1E00AF555A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3159AB51152CDB1E00AF555A /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		3159AB52152CDB1E00AF555A /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		3159AB55152CDB1E00AF555A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		3159AB58152CDB1E00AF555A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		3159AB5F152CDCCB00AF555A /* UINavigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UINavigationBar.png; sourceTree = "<group>"; };
+		3159AB60152CDCCB00AF555A /* UINavigationBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBar@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3159AB35152CDB1E00AF555A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159AB3D152CDB1E00AF555A /* UIKit.framework in Frameworks */,
+				3159AB3F152CDB1E00AF555A /* Foundation.framework in Frameworks */,
+				3159AB41152CDB1E00AF555A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3159AB2D152CDB1E00AF555A = {
+			isa = PBXGroup;
+			children = (
+				3159AB5F152CDCCB00AF555A /* UINavigationBar.png */,
+				3159AB60152CDCCB00AF555A /* UINavigationBar@2x.png */,
+				3159AB42152CDB1E00AF555A /* Tut Nav Bar */,
+				3159AB3B152CDB1E00AF555A /* Frameworks */,
+				3159AB39152CDB1E00AF555A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3159AB39152CDB1E00AF555A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3159AB38152CDB1E00AF555A /* Tut Nav Bar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3159AB3B152CDB1E00AF555A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3159AB3C152CDB1E00AF555A /* UIKit.framework */,
+				3159AB3E152CDB1E00AF555A /* Foundation.framework */,
+				3159AB40152CDB1E00AF555A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3159AB42152CDB1E00AF555A /* Tut Nav Bar */ = {
+			isa = PBXGroup;
+			children = (
+				3159AB4B152CDB1E00AF555A /* AppDelegate.h */,
+				3159AB4C152CDB1E00AF555A /* AppDelegate.m */,
+				3159AB4E152CDB1E00AF555A /* MainViewController.h */,
+				3159AB4F152CDB1E00AF555A /* MainViewController.m */,
+				3159AB51152CDB1E00AF555A /* FlipsideViewController.h */,
+				3159AB52152CDB1E00AF555A /* FlipsideViewController.m */,
+				3159AB54152CDB1E00AF555A /* MainViewController.xib */,
+				3159AB57152CDB1E00AF555A /* FlipsideViewController.xib */,
+				3159AB43152CDB1E00AF555A /* Supporting Files */,
+			);
+			path = "Tut Nav Bar";
+			sourceTree = "<group>";
+		};
+		3159AB43152CDB1E00AF555A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3159AB44152CDB1E00AF555A /* Tut Nav Bar-Info.plist */,
+				3159AB45152CDB1E00AF555A /* InfoPlist.strings */,
+				3159AB48152CDB1E00AF555A /* main.m */,
+				3159AB4A152CDB1E00AF555A /* Tut Nav Bar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3159AB37152CDB1E00AF555A /* Tut Nav Bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3159AB5C152CDB1E00AF555A /* Build configuration list for PBXNativeTarget "Tut Nav Bar" */;
+			buildPhases = (
+				3159AB34152CDB1E00AF555A /* Sources */,
+				3159AB35152CDB1E00AF555A /* Frameworks */,
+				3159AB36152CDB1E00AF555A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tut Nav Bar";
+			productName = "Tut Nav Bar";
+			productReference = 3159AB38152CDB1E00AF555A /* Tut Nav Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3159AB2F152CDB1E00AF555A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "TechnicalUI & RealTuty";
+			};
+			buildConfigurationList = 3159AB32152CDB1E00AF555A /* Build configuration list for PBXProject "Tut Nav Bar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3159AB2D152CDB1E00AF555A;
+			productRefGroup = 3159AB39152CDB1E00AF555A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3159AB37152CDB1E00AF555A /* Tut Nav Bar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3159AB36152CDB1E00AF555A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159AB47152CDB1E00AF555A /* InfoPlist.strings in Resources */,
+				3159AB56152CDB1E00AF555A /* MainViewController.xib in Resources */,
+				3159AB59152CDB1E00AF555A /* FlipsideViewController.xib in Resources */,
+				3159AB61152CDCCB00AF555A /* UINavigationBar.png in Resources */,
+				3159AB62152CDCCB00AF555A /* UINavigationBar@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3159AB34152CDB1E00AF555A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159AB49152CDB1E00AF555A /* main.m in Sources */,
+				3159AB4D152CDB1E00AF555A /* AppDelegate.m in Sources */,
+				3159AB50152CDB1E00AF555A /* MainViewController.m in Sources */,
+				3159AB53152CDB1E00AF555A /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3159AB45152CDB1E00AF555A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3159AB46152CDB1E00AF555A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3159AB54152CDB1E00AF555A /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3159AB55152CDB1E00AF555A /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		3159AB57152CDB1E00AF555A /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3159AB58152CDB1E00AF555A /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3159AB5A152CDB1E00AF555A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3159AB5B152CDB1E00AF555A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3159AB5D152CDB1E00AF555A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tut Nav Bar/Tut Nav Bar-Prefix.pch";
+				INFOPLIST_FILE = "Tut Nav Bar/Tut Nav Bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3159AB5E152CDB1E00AF555A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tut Nav Bar/Tut Nav Bar-Prefix.pch";
+				INFOPLIST_FILE = "Tut Nav Bar/Tut Nav Bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3159AB32152CDB1E00AF555A /* Build configuration list for PBXProject "Tut Nav Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3159AB5A152CDB1E00AF555A /* Debug */,
+				3159AB5B152CDB1E00AF555A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3159AB5C152CDB1E00AF555A /* Build configuration list for PBXNativeTarget "Tut Nav Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3159AB5D152CDB1E00AF555A /* Debug */,
+				3159AB5E152CDB1E00AF555A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3159AB2F152CDB1E00AF555A /* Project object */;
+}
